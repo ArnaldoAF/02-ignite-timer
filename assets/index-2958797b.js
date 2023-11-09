@@ -337,7 +337,7 @@ Error generating stack: `+o.message+`
             }
         }
     }
-`,f2="/assets/logo-ignite-3cfba1f7.svg";function h2(){return V.jsxs(d2,{children:[V.jsx("img",{src:f2,alt:"logo ignite"}),V.jsxs("nav",{children:[V.jsx($f,{to:"/",title:"Timer",children:V.jsx(uw,{size:24})}),V.jsx($f,{to:"/history",title:"Historico",children:V.jsx(sw,{size:24})})]})]})}const p2=ut.div`
+`,f2="/02-ignite-timer/assets/logo-ignite-3cfba1f7.svg";function h2(){return V.jsxs(d2,{children:[V.jsx("img",{src:f2,alt:"logo ignite"}),V.jsxs("nav",{children:[V.jsx($f,{to:"/",title:"Timer",children:V.jsx(uw,{size:24})}),V.jsx($f,{to:"/history",title:"Historico",children:V.jsx(sw,{size:24})})]})]})}const p2=ut.div`
     max-width: 74rem;
     height: calc(100vh - 5rem);
     margin: 2.5rem auto;
