@@ -1,4 +1,4 @@
-# Ignite Times
+# Ignite Timer
 This project is part of the Rocketseat's Ignite course
 Chapter 2
 
