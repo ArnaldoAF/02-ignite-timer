@@ -22,6 +22,33 @@ export const HistoryList = styled.main`
         border-collapse: collapse;
         min-width: 60px;
 
+        tbody {
+            display: block;
+            overflow-y: scroll;
+            height: 40vh;
+            width: 100%;
+
+            tr {
+                display: block;
+            }
+        }
+
+        thead {
+            width: calc(100% - 1em) !important;
+            tr {
+                th:first-child {
+                    width: 50%;
+                }
+            }
+        }
+
+        thead,
+        tbody tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed; /* even columns width , fix width of table too*/
+        }
+
         th {
             background-color: ${(props) => props.theme['gray-600']};
             color: ${(props) => props.theme['gray-100']};
