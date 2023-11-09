@@ -1,6 +1,7 @@
 {
   "name": "02-ignite-timer",
   "private": true,
+  "homepage": "https://arnaldoaf.github.io/02-ignite-timer/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,12 +10,15 @@
     "lint2": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "lint": "eslint src --ext .ts,.tsx",
-    "lint-fix": "eslint src --ext .ts,.tsx --fix"
+    "lint-fix": "eslint src --ext .ts,.tsx --fix",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
     "@types/styled-components": "^5.1.26",
     "date-fns": "^2.30.0",
+    "gh-pages": "^6.0.0",
     "immer": "^10.0.3",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
